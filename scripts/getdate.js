@@ -5,4 +5,4 @@ const outputElement = document.querySelector("#full");
 const lastModifiedDate = new Date(document.lastModified);
 
 // Display the last modified date in the "full" paragraph
-outputElement.textContent = `©️ 2024 • Matheus Felber • Last modified: ${lastModifiedDate.toLocaleString()}`;
+outputElement.textContent = `©️ 2024 • Matt Felber • Last modified: ${lastModifiedDate.toLocaleString()}`;
