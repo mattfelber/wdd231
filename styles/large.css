@@ -93,7 +93,7 @@ text-align: center;
     .flexbox article p {
         display: block;
         text-align: left;
-        font: 2rem sans-serif;
+        font: 2rem Mukta, sans-serif;
         margin: 1rem;
     }
     
