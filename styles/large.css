@@ -71,37 +71,35 @@ height: 2rem;
 text-align: center;
 }
 
-/*HOLY GRAIL FLEX BOX */
-.flexbox {
-    display: flex;
-    min-height: 100vh;
-    color: black;
+    /* HOLY GRAIL FLEX BOX */
+    .flexbox {
+        display: flex;
+        min-height: 100vh;
+        color: black;
     }
-
-.flexbox article {
-    flex: 3 3;
-    background-color: #e4e2ef;
-    text-align: center;
-}
-
-.flexbox article img {
-    display: block;
-    margin-left: auto;
-	margin-right: auto;
-}
-
-.flexbox article p {
-    display: block;
-    text-align: left;
-	font: 2rem sans-serif;
-    margin: 1rem;
-}
-
-
-.flexbox nav {
-    order: -1;
-    width: 20%;
-    flex: 1 1 5;
+    
+    .flexbox article {
+        flex: 1 1 auto; /* Set flex to 1 1 auto */
+        background-color: #e4e2ef;
+        text-align: center;
+    }
+    
+    .flexbox article img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .flexbox article p {
+        display: block;
+        text-align: left;
+        font: 2rem sans-serif;
+        margin: 1rem;
+    }
+    
+    .flexbox nav {
+        order: -1;
+        width: 20%;
     }
 
 
