@@ -1,0 +1,115 @@
+*{
+padding: 0;
+margin: 0;
+--colorOne: #e4e2ef /* Background Article*/
+}
+
+header{
+background-color: #262626;
+}
+
+li{
+list-style: none;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+.container{
+max-width: 1224px;
+width: 92%;
+margin: 0 auto;
+}
+
+.navbar{
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-branding{
+font-size: 2rem;
+}
+
+.nav-menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+}
+
+.nav-link{
+transition: 0.3s ease-out;
+}
+
+.nav-link:hover{
+color: dodgerblue;
+}
+
+.hamburger{
+display: none;
+cursor: pointer;
+}
+
+.bar{
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+background-color: white;
+}
+
+footer {
+background-color: #262626;
+color: white;
+height: 2rem;
+text-align: center;
+}
+
+/*HOLY GRAIL FLEX BOX */
+.flexbox {
+    display: flex;
+    min-height: 100vh;
+    color: black;
+    }
+
+.flexbox article {
+    flex: 3 3;
+    background-color: #e4e2ef;
+    text-align: center;
+}
+
+.flexbox article img {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.flexbox article p {
+    display: block;
+    text-align: left;
+	font: 2rem sans-serif;
+    margin: 1rem;
+}
+
+
+.flexbox nav {
+    order: -1;
+    width: 20%;
+    flex: 1 1 5;
+    }
+
+
+.flexbox aside {
+    flex: 1 1 5;
+    width: 20%;
+    }
+
+
+
+

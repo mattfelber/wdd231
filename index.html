@@ -6,38 +6,71 @@
     <meta name="description" content="Matt Felber - WDD231. This is my Home Page and it contains my work.">
     <meta name="author" content="Matheus Felber">
     <meta property="title" content="WDD231 Matheus Felber">
-
     <title>Matheus Felber | WDD231</title>
+    
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/normalize.css">
-
+    
+    <script src="scripts/script.js" defer> </script>
+    <script src="scripts/getdate.js" defer> </script>
+    
+    
 </head>
 
 
 <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Site</a>
-            <a href="wwr/site-plan-rafting.html">Site Plan Rafting</a>
+        <nav class="navbar">
+            <a href="nav-branding">BYU-I</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Chamber</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.github.com/mattfelber" class="nav-link">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/matheusfelber/" class="nav-link">Linkedin</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
         </nav>
     </header>
     
     
-    <main>
-        <h1>Matheus Felber | WDD231 </h1>
-        <img src="images/profile.png" alt="Hello, my name is Matheus Felber and I am from Sao Paulo, Brazil.">
-        <p>Hello, my name is Matheus Felber and I am from Sao Paulo, Brazil. I enjoy watchng tv shows, going to restaurants with my wife, and steak. I like programming and learning how to create things on the computer as I progress in my software development major.</p>
+    <main class="flexbox">
+        
+        <nav>
+        </nav>
+        
+        <article>
+            <h1>Matheus Felber | WDD231 </h1>
+            <img src="images/profile.png" alt="Hello, my name is Matheus Felber and I am from Sao Paulo, Brazil.">
+            <p>Hello, my name is Matheus Felber and I am from Sao Paulo, Brazil. I enjoy watching tv shows, going to restaurants with my wife, and coding. I am learning how to create responsive and smart web solutions as I progress in major.</p>
+        </article>
+
+        <aside> 
+        </aside> 
+
     </main>
-    
-    
-    
+     
     <footer>
-        <p>&COPY; | Matheus Felber | Brazil </p>
-        </p>
+        <p id="full"></p>
     </footer>
 
-
-
-
 </body>
+
+
 </html>
