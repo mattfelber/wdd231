@@ -1,0 +1,209 @@
+*{
+padding: 0;
+margin: 0;
+--colorOne: #e4e2ef /* Background Article*/
+
+}
+
+header{
+background-color: #262626;
+}
+
+li{
+list-style: none;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+.container{
+max-width: 1224px;
+width: 92%;
+margin: 0 auto;
+}
+
+.navbar{
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+}
+
+.nav-link{
+transition: 0.3s ease-out;
+}
+
+.nav-link:hover{
+color: dodgerblue;
+}
+
+
+.hamburger{
+display: none;
+cursor: pointer;
+}
+
+.bar{
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+background-color: white;
+}
+
+.navbar .nav-branding {
+    font-size: 5rem; /* Font size for the logo */
+  }
+
+footer {
+background-color: #262626;
+color: white;
+height: 2rem;
+text-align: center;
+}
+
+.categorias {
+    padding: 20px;
+    text-align: center;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categorias li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #333;
+}
+
+.como-funciona {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.passo {
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.passo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.depoimentos {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.depoimentos h2 { /* Selecionando o título "Depoimentos" */
+    margin-bottom: 20px; /* Espaçamento entre o título e os depoimentos */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Alinhamento centralizado */
+    align-items: center;
+    
+}
+
+.depoimento {
+    width: 45%; /* Largura dos depoimentos individuais */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 24px; /* Tamanho da fonte do título principal */
+    margin-bottom: 10px; /* Espaçamento entre o título e o próximo elemento */
+    color: #333; /* Cor do texto do título */
+    text-align: center; /* Alinhamento do texto do título (centralizado) */
+}
+
+.hero p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas do parágrafo */
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+    color: #666; /* Cor do texto do parágrafo */
+    text-align: center; /* Alinhamento do texto do parágrafo (centralizado) */
+}
+
+
+
+.busca {
+    display: flex;
+    max-width: 50%; /* Adjust max-width as needed */
+    margin: 0 auto; /* Added for centering */
+  }
+
+#busca-servico {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.busca button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.busca button:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
