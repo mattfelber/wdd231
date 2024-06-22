@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        # { display: block; border: 2px solid black; /* Adjust border size and color as needed */}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            overflow: hidden; /* Prevent scrolling */
+        }
+        #navbar {
+            position: fixed;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            background-color: #4682b4; /* Steel blue navbar */
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 999; /* Ensure navbar is on top */
+        }
+        #navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        #main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 5em; /* Large font size */
+            color: #00008b; /* Dark blue text */
+        }
+        .moving-thing {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background-color: #6495ed; /* Cornflower blue moving things */
+            animation: move 5s infinite alternate;
+        }
+        @keyframes move {
+            0% { left: 0; }
+            100% { left: calc(100% - 20px); }
+        }
+        .moving-thing.left {
+            left: 0;
+            animation-direction: reverse;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Quiz</a>
+    </div>
+    <div id="main">
+        Simple Website
+    </div>
+    <div class="moving-thing"></div>
+    <div class="moving-thing left"></div>
+</body>
+</html>

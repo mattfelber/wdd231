@@ -1,0 +1,29 @@
+/* base.css */
+body {
+    font-family: 'Your Font', sans-serif; /* Update with your preferred font */
+}
+
+.hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: block; /* Show on mobile view */
+    }
+
+    .main-menu {
+        display: none; /* Hide by default on mobile view */
+    }
+
+    .main-menu.show {
+        display: block; /* Show when the class 'show' is added */
+    }
+}
+
+.main-menu a:before {
+    content: '\2022'; /* Unicode for a bullet point */
+    margin-right: 8px;
+}

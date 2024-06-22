@@ -1,0 +1,12 @@
+h1 {text-align: center;}
+main {
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+}
+main img {
+    margin: .5rem;
+    filter: blur(0em);
+    transition: filter .5s;
+}
+main img[data-src] {filter: blur(.2rem);}
