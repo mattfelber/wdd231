@@ -17,7 +17,7 @@ display.classList.toggle("grid", view === "grid");
 display.classList.toggle("list", view === "list");
 }
 /* CREATE CARDS FROM API */
-const urlBusiness = "https://mattfelber.github.io/wdd230/chamber/data.json"
+const urlBusiness = "https://mattfelber.github.io/wdd231/chamber/data.json"
 const checkDirectory = document.querySelector(".directory-main article");
 
 async function getBusinessData() {
